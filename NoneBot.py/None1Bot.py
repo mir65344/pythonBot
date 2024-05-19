@@ -9,7 +9,7 @@ def start(message):
 
 @bot.message_handler(commands=['joke'])
 def handle_joke(message):
-    jokes = ['1', '3', '2', '4', '5']
+    jokes = ['1', '33', '2', '4', '5']
 
     joke = random.choice(jokes)
     bot.send_message(message.chat.id, joke)
